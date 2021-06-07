@@ -10,17 +10,25 @@ This project compares the Covid-19 cases in these two cities. Was the number of 
 
 ### Sources
 [Berlin Covid data](https://www.kaggle.com/headsortails/covid19-tracking-germany)
+
 [Zurich Covid data](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich)
 
 Lockdowns in Berlin:
+
 https://www.deutschlandfunk.de/rueckblick-2020-chronologie-eines-schuljahrs-in-der.680.de.html?dram:article_id=489919
+
 https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Deutschland#Verlauf
+
 https://de.wikipedia.org/wiki/SARS-CoV-2-Verordnungen_in_Berlin
+
 https://www.berlin.de/sen/bjf/service/presse/
 
 Lockdowns in Zurich:
+
 https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_der_Schweiz#Bund
+
 https://www.zh.ch/de/gesundheit/coronavirus/zahlen-fakten-covid-19.html?keyword=covid19#/home
+
 https://www.oberrieden.ch/coronavirus-massnahmen-des-kantons-zuerich-weitere-informationen
 
 ### License
