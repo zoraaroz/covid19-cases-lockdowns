@@ -8,8 +8,8 @@ I live in Berlin and many of my friends and family live in Zurich. Like the rest
 This project compares the Covid-19 cases in these two cities. Was the number of cases similar in both locations? When did they differ and when were the synchronous? Furthermore, I put together a data table to document the lockdowns in both cities. I would like to find out, how these regulations affected the Covid-19 cases.
 
 ### Sources
-* [Berlin Covid data](https://www.kaggle.com/headsortails/covid19-tracking-germany)
-* [Zurich Covid data](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich)
+* [Berlin Covid data](https://www.kaggle.com/headsortails/covid19-tracking-germany) Downloaded: 2.6.2021
+* [Zurich Covid data](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich) Downloaded: 9.6.2021
 
 Lockdowns in Berlin:
 * https://www.deutschlandfunk.de/rueckblick-2020-chronologie-eines-schuljahrs-in-der.680.de.html?dram:article_id=489919
