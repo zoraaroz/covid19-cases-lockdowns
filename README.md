@@ -11,6 +11,8 @@ Furthermore, I wanted to find what influenced the development of the incidences.
 
 It turns out that in both Berlin and Zurich it was the temperature that had the strongest effect of the investigated variables. Apart from this seasonal character of Covid-19, the lockdown regulations do seem to have had an effect on the progress of incidences. In Berlin, is was mostly the mask mandate and closing of schools while in Zurich it was mostly the closing of retail trade and the mask mandate.
 
+Check out my [blog post](https://zoraaroz.medium.com/lockdown-blues-in-berlin-and-zurich-61dd9db041b0) on the topic.
+
 ### Data sources
 * [Berlin Covid data](https://www.kaggle.com/headsortails/covid19-tracking-germany) - Downloaded: 2.6.2021
 * [Zurich Covid data](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich) - Downloaded: 9.6.2021
