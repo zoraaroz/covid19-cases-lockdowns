@@ -33,5 +33,14 @@ Lockdowns in Zurich:
 data_analysis.ipynb - Jupyter notebook used for the data wrangnling and data_analysis
 .csv files - Data files
 
+### Libraries used
+* numpy
+* pandas
+* datetime.datetime
+* matplotlib.pyplot
+* seaborn
+* sklearn.decomposition.PCA
+* statsmodels.tsa.arima.model.ARIMA
+
 ### License
 The contents of this repository are covered under the MIT License.
