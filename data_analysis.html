@@ -13132,12 +13132,12 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import csv files</span>
-<span class="n">cases_de</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;covid_cases_de.csv&#39;</span><span class="p">)</span>
-<span class="n">cases_zh_raw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;covid_cases_zh.csv&#39;</span><span class="p">)</span>
-<span class="n">vacc_global</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;covid_vaccinations_global.csv&#39;</span><span class="p">)</span>
-<span class="n">lockdowns</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;lockdowns.csv&#39;</span><span class="p">,</span> <span class="n">sep</span> <span class="o">=</span> <span class="s1">&#39;;&#39;</span><span class="p">)</span>
-<span class="n">temperature_be_raw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;temperature_be.csv&#39;</span><span class="p">)</span>
-<span class="n">temperature_zh_raw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;temperature_zh.csv&#39;</span><span class="p">,</span> <span class="n">sep</span> <span class="o">=</span> <span class="s1">&#39;;&#39;</span><span class="p">)</span>
+<span class="n">cases_de</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/covid_cases_de.csv&#39;</span><span class="p">)</span>
+<span class="n">cases_zh_raw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/covid_cases_zh.csv&#39;</span><span class="p">)</span>
+<span class="n">vacc_global</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/covid_vaccinations_global.csv&#39;</span><span class="p">)</span>
+<span class="n">lockdowns</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/lockdowns.csv&#39;</span><span class="p">,</span> <span class="n">sep</span> <span class="o">=</span> <span class="s1">&#39;;&#39;</span><span class="p">)</span>
+<span class="n">temperature_be_raw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/temperature_be.csv&#39;</span><span class="p">)</span>
+<span class="n">temperature_zh_raw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/temperature_zh.csv&#39;</span><span class="p">,</span> <span class="n">sep</span> <span class="o">=</span> <span class="s1">&#39;;&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -15863,67 +15863,67 @@ dtype: object</pre>
   </thead>
   <tbody>
     <tr>
-      <th>645</th>
-      <td>2020-09-26</td>
-      <td>Zurich</td>
-      <td>2</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>869</th>
-      <td>2021-05-08</td>
-      <td>Zurich</td>
-      <td>3</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>396</th>
-      <td>2021-04-09</td>
+      <th>378</th>
+      <td>2021-03-22</td>
       <td>Berlin</td>
       <td>3</td>
       <td>3</td>
       <td>2</td>
       <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>294</th>
+      <td>2020-12-28</td>
+      <td>Berlin</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
       <td>2</td>
       <td>2</td>
       <td>2</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>854</th>
-      <td>2021-04-23</td>
+      <th>577</th>
+      <td>2020-07-20</td>
       <td>Zurich</td>
-      <td>3</td>
+      <td>2</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
+      <td>2</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>453</th>
-      <td>2020-03-18</td>
-      <td>Zurich</td>
-      <td>0</td>
+      <th>366</th>
+      <td>2021-03-10</td>
+      <td>Berlin</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
       <td>0</td>
       <td>2</td>
       <td>2</td>
+    </tr>
+    <tr>
+      <th>403</th>
+      <td>2021-04-16</td>
+      <td>Berlin</td>
+      <td>3</td>
+      <td>3</td>
       <td>2</td>
-      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
       <td>2</td>
       <td>2</td>
     </tr>
@@ -17237,94 +17237,94 @@ dtype: object</pre>
   </thead>
   <tbody>
     <tr>
-      <th>70</th>
+      <th>56</th>
       <td>Germany</td>
       <td>DEU</td>
-      <td>2021-03-07</td>
-      <td>7858443.0</td>
-      <td>5290579.0</td>
-      <td>2567896.0</td>
-      <td>150382.0</td>
-      <td>217963.0</td>
-      <td>9.38</td>
-      <td>6.31</td>
-      <td>3.06</td>
-      <td>2601.0</td>
+      <td>2021-02-21</td>
+      <td>5173037.0</td>
+      <td>3358829.0</td>
+      <td>1814234.0</td>
+      <td>86152.0</td>
+      <td>129992.0</td>
+      <td>6.17</td>
+      <td>4.01</td>
+      <td>2.17</td>
+      <td>1552.0</td>
       <td>Johnson&amp;Johnson, Moderna, Oxford/AstraZeneca, ...</td>
       <td>Robert Koch Institut</td>
       <td>https://impfdashboard.de/</td>
     </tr>
     <tr>
-      <th>129</th>
+      <th>38</th>
       <td>Germany</td>
       <td>DEU</td>
-      <td>2021-05-05</td>
-      <td>32750775.0</td>
-      <td>25576917.0</td>
-      <td>7204452.0</td>
-      <td>1137475.0</td>
-      <td>681626.0</td>
-      <td>39.09</td>
-      <td>30.53</td>
-      <td>8.60</td>
-      <td>8136.0</td>
+      <td>2021-02-03</td>
+      <td>2964440.0</td>
+      <td>2137629.0</td>
+      <td>826811.0</td>
+      <td>159693.0</td>
+      <td>108213.0</td>
+      <td>3.54</td>
+      <td>2.55</td>
+      <td>0.99</td>
+      <td>1292.0</td>
       <td>Johnson&amp;Johnson, Moderna, Oxford/AstraZeneca, ...</td>
       <td>Robert Koch Institut</td>
       <td>https://impfdashboard.de/</td>
     </tr>
     <tr>
-      <th>163</th>
-      <td>Switzerland</td>
-      <td>CHE</td>
-      <td>2021-02-01</td>
-      <td>333126.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>15498.0</td>
-      <td>17264.0</td>
-      <td>3.85</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>1995.0</td>
-      <td>Moderna, Pfizer/BioNTech</td>
-      <td>Federal Office of Public Health</td>
-      <td>https://www.covid19.admin.ch/en/epidemiologic/...</td>
+      <th>52</th>
+      <td>Germany</td>
+      <td>DEU</td>
+      <td>2021-02-17</td>
+      <td>4675997.0</td>
+      <td>3034114.0</td>
+      <td>1641901.0</td>
+      <td>149322.0</td>
+      <td>126377.0</td>
+      <td>5.58</td>
+      <td>3.62</td>
+      <td>1.96</td>
+      <td>1508.0</td>
+      <td>Johnson&amp;Johnson, Moderna, Oxford/AstraZeneca, ...</td>
+      <td>Robert Koch Institut</td>
+      <td>https://impfdashboard.de/</td>
     </tr>
     <tr>
-      <th>264</th>
-      <td>Switzerland</td>
-      <td>CHE</td>
-      <td>2021-05-13</td>
-      <td>3575279.0</td>
-      <td>2368965.0</td>
-      <td>1206314.0</td>
-      <td>45651.0</td>
-      <td>65269.0</td>
-      <td>41.31</td>
-      <td>27.37</td>
-      <td>13.94</td>
-      <td>7542.0</td>
-      <td>Moderna, Pfizer/BioNTech</td>
-      <td>Federal Office of Public Health</td>
-      <td>https://www.covid19.admin.ch/en/epidemiologic/...</td>
+      <th>91</th>
+      <td>Germany</td>
+      <td>DEU</td>
+      <td>2021-03-28</td>
+      <td>13209549.0</td>
+      <td>9262198.0</td>
+      <td>3947387.0</td>
+      <td>196911.0</td>
+      <td>299267.0</td>
+      <td>15.77</td>
+      <td>11.05</td>
+      <td>4.71</td>
+      <td>3572.0</td>
+      <td>Johnson&amp;Johnson, Moderna, Oxford/AstraZeneca, ...</td>
+      <td>Robert Koch Institut</td>
+      <td>https://impfdashboard.de/</td>
     </tr>
     <tr>
-      <th>277</th>
-      <td>Switzerland</td>
-      <td>CHE</td>
-      <td>2021-05-26</td>
-      <td>4521540.0</td>
-      <td>2906974.0</td>
-      <td>1614566.0</td>
-      <td>107222.0</td>
-      <td>73937.0</td>
-      <td>52.24</td>
-      <td>33.59</td>
-      <td>18.66</td>
-      <td>8543.0</td>
-      <td>Moderna, Pfizer/BioNTech</td>
-      <td>Federal Office of Public Health</td>
-      <td>https://www.covid19.admin.ch/en/epidemiologic/...</td>
+      <th>104</th>
+      <td>Germany</td>
+      <td>DEU</td>
+      <td>2021-04-10</td>
+      <td>18205151.0</td>
+      <td>13174859.0</td>
+      <td>5030328.0</td>
+      <td>368654.0</td>
+      <td>461383.0</td>
+      <td>21.73</td>
+      <td>15.72</td>
+      <td>6.00</td>
+      <td>5507.0</td>
+      <td>Johnson&amp;Johnson, Moderna, Oxford/AstraZeneca, ...</td>
+      <td>Robert Koch Institut</td>
+      <td>https://impfdashboard.de/</td>
     </tr>
   </tbody>
 </table>
@@ -19018,8 +19018,8 @@ dtype: object</pre>
 ==============================================================================
 Dep. Variable:              incidence   No. Observations:                  444
 Model:                          ARIMA   Log Likelihood                -421.309
-Date:                Sun, 20 Jun 2021   AIC                            856.618
-Time:                        21:57:36   BIC                            885.289
+Date:                Thu, 01 Jul 2021   AIC                            856.618
+Time:                        10:10:55   BIC                            885.289
 Sample:                             0   HQIC                           867.924
                                 - 444                                         
 Covariance Type:                  opg                                         
@@ -19079,8 +19079,8 @@ Warnings:
 ==============================================================================
 Dep. Variable:              incidence   No. Observations:                  444
 Model:                          ARIMA   Log Likelihood                -306.225
-Date:                Sun, 20 Jun 2021   AIC                            626.449
-Time:                        21:57:37   BIC                            655.120
+Date:                Thu, 01 Jul 2021   AIC                            626.449
+Time:                        10:10:55   BIC                            655.120
 Sample:                             0   HQIC                           637.756
                                 - 444                                         
 Covariance Type:                  opg                                         
